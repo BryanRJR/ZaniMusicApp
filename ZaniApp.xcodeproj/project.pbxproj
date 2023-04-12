@@ -1,0 +1,1141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13859BC42D3893254199110F /* Pods_ZaniAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ABB846242EEC8D9B04ED30 /* Pods_ZaniAppTests.framework */; };
+		5236626D29E1A81400AFE51C /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236626C29E1A81400AFE51C /* PlaylistTableViewCell.swift */; };
+		5262A09C29DBD9CD00972E40 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262A09B29DBD9CD00972E40 /* SignUpViewController.swift */; };
+		5262A09F29DBDC7B00972E40 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5262A09E29DBDC7B00972E40 /* Home.storyboard */; };
+		5262A0A129DBDC9300972E40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262A0A029DBDC9300972E40 /* HomeViewController.swift */; };
+		5268684629E4EDED00D24B21 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268684529E4EDED00D24B21 /* SplashViewController.swift */; };
+		5268684829E4FE2C00D24B21 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268684729E4FE2C00D24B21 /* StringExtensions.swift */; };
+		5268685329E51C3300D24B21 /* TrackImageViewControllerTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268685229E51C3300D24B21 /* TrackImageViewControllerTransitioning.swift */; };
+		5268685529E594D100D24B21 /* MusicOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268685429E594D100D24B21 /* MusicOneTableViewCell.swift */; };
+		5268685729E594E600D24B21 /* MusicTwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268685629E594E600D24B21 /* MusicTwoTableViewCell.swift */; };
+		5268685E29E5962500D24B21 /* MusicTwoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268685D29E5962500D24B21 /* MusicTwoCollectionViewCell.swift */; };
+		5268686029E5AD9B00D24B21 /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268685F29E5AD9B00D24B21 /* Tracks.swift */; };
+		527470F029E007D0001EA357 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527470EF29E007D0001EA357 /* Profile.storyboard */; };
+		527470F229E008EE001EA357 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527470F129E008EE001EA357 /* Search.storyboard */; };
+		527470F429E0093F001EA357 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527470F329E0093F001EA357 /* ProfileViewController.swift */; };
+		527470F629E00957001EA357 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527470F529E00957001EA357 /* SearchViewController.swift */; };
+		5275312C29E39E7A00EC8CBA /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275312B29E39E7A00EC8CBA /* EditProfileViewController.swift */; };
+		5275313529E3D75C00EC8CBA /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275313429E3D75C00EC8CBA /* InputTextField.swift */; };
+		5275313729E3D7B000EC8CBA /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275313629E3D7B000EC8CBA /* PrimaryButton.swift */; };
+		5275313A29E3D83900EC8CBA /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275313929E3D83900EC8CBA /* UIColorExtensions.swift */; };
+		529EE04F29E5C0A90023DDC8 /* YoasobiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE04E29E5C0A90023DDC8 /* YoasobiCollectionViewCell.swift */; };
+		529EE05229E62B870023DDC8 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529EE05129E62B870023DDC8 /* Player.storyboard */; };
+		529EE05429E640F10023DDC8 /* MusicThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE05329E640F10023DDC8 /* MusicThreeTableViewCell.swift */; };
+		529EE05629E65A3A0023DDC8 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE05529E65A3A0023DDC8 /* Container.swift */; };
+		529EE05829E65A740023DDC8 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE05729E65A740023DDC8 /* EndPoint.swift */; };
+		529EE05B29E65D5F0023DDC8 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE05A29E65D5F0023DDC8 /* TrackDetailView.swift */; };
+		529EE05D29E65E4B0023DDC8 /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529EE05C29E65E4B0023DDC8 /* TrackDetailView.xib */; };
+		529EE05F29E6629C0023DDC8 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE05E29E6629C0023DDC8 /* SearchInteractor.swift */; };
+		529EE06129E662BA0023DDC8 /* SearchPresentLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06029E662BA0023DDC8 /* SearchPresentLogic.swift */; };
+		529EE06329E662DD0023DDC8 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06229E662DD0023DDC8 /* SearchModels.swift */; };
+		529EE06529E663B00023DDC8 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06429E663B00023DDC8 /* TrackCell.swift */; };
+		529EE06729E66D160023DDC8 /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06629E66D160023DDC8 /* CMTime + Extension.swift */; };
+		529EE06929E66E060023DDC8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06829E66E060023DDC8 /* ApiService.swift */; };
+		529EE06B29E66E590023DDC8 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06A29E66E590023DDC8 /* SearchWorker.swift */; };
+		529EE06D29E670490023DDC8 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06C29E670490023DDC8 /* SearchRouter.swift */; };
+		529EE07029E68DE20023DDC8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE06F29E68DE20023DDC8 /* FooterView.swift */; };
+		529EE07229E691DA0023DDC8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07129E691DA0023DDC8 /* TabBarController.swift */; };
+		529EE07429E692720023DDC8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07329E692720023DDC8 /* UIViewController.swift */; };
+		529EE07629E692C60023DDC8 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07529E692C60023DDC8 /* UIView + Extension.swift */; };
+		529EE07829E693290023DDC8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07729E693290023DDC8 /* CoreDataManager.swift */; };
+		529EE07A29E693A20023DDC8 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07929E693A20023DDC8 /* LibraryView.swift */; };
+		529EE07D29E694400023DDC8 /* TrackLocal+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07C29E694400023DDC8 /* TrackLocal+CoreData.swift */; };
+		529EE07F29E6947B0023DDC8 /* TrackLocal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE07E29E6947B0023DDC8 /* TrackLocal+CoreDataProperties.swift */; };
+		529EE08129E694DA0023DDC8 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EE08029E694DA0023DDC8 /* LibraryCell.swift */; };
+		52B4337D29D309D7007FC338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4337C29D309D7007FC338 /* AppDelegate.swift */; };
+		52B4337F29D309D7007FC338 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4337E29D309D7007FC338 /* SceneDelegate.swift */; };
+		52B4338129D309D7007FC338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4338029D309D7007FC338 /* ViewController.swift */; };
+		52B4338429D309D7007FC338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B4338229D309D7007FC338 /* Main.storyboard */; };
+		52B4338629D309DD007FC338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B4338529D309DD007FC338 /* Assets.xcassets */; };
+		52B4338929D309DD007FC338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B4338729D309DD007FC338 /* LaunchScreen.storyboard */; };
+		52B4339429D309DD007FC338 /* ZaniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4339329D309DD007FC338 /* ZaniAppTests.swift */; };
+		52B4339E29D309DD007FC338 /* ZaniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4339D29D309DD007FC338 /* ZaniAppUITests.swift */; };
+		52B433A029D309DD007FC338 /* ZaniAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4339F29D309DD007FC338 /* ZaniAppUITestsLaunchTests.swift */; };
+		52B433B029D30AD1007FC338 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52B433AD29D30AD1007FC338 /* song2.mp3 */; };
+		52B433B129D30AD1007FC338 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52B433AE29D30AD1007FC338 /* song3.mp3 */; };
+		52B433B229D30AD1007FC338 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52B433AF29D30AD1007FC338 /* song1.mp3 */; };
+		52C9039129E44F610000E97B /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9039029E44F610000E97B /* ApiServices.swift */; };
+		52C9039329E44FAB0000E97B /* ITunesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9039229E44FAB0000E97B /* ITunesProvider.swift */; };
+		52C9039829E4507D0000E97B /* ITunesSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9039729E4507D0000E97B /* ITunesSearchResponse.swift */; };
+		52C9039A29E4509A0000E97B /* ITunesTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9039929E4509A0000E97B /* ITunesTrack.swift */; };
+		52C903C129E4E74F0000E97B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C903C029E4E74F0000E97B /* User.swift */; };
+		52C903C329E4E7700000E97B /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C903C229E4E7700000E97B /* AccessToken.swift */; };
+		52CA8DCB29E4EB5100FFDAC1 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CA8DCA29E4EB5100FFDAC1 /* LoadingViewController.xib */; };
+		52CA8DCD29E4EB8B00FFDAC1 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA8DCC29E4EB8B00FFDAC1 /* LoadingViewController.swift */; };
+		52CA8DCF29E4ED1D00FFDAC1 /* UserDefaultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA8DCE29E4ED1D00FFDAC1 /* UserDefaultExtensions.swift */; };
+		52CA8DD229E4ED9600FFDAC1 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CA8DD129E4ED9600FFDAC1 /* Splash.storyboard */; };
+		52D4E3D729DBCDA700448CE4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D4E3D629DBCDA700448CE4 /* Login.storyboard */; };
+		52D4E3D929DBCE1200448CE4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4E3D829DBCE1200448CE4 /* LoginViewController.swift */; };
+		71B21A8706A3C35737BDE43E /* Pods_ZaniApp_ZaniAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B87F3A70B193243FAA818 /* Pods_ZaniApp_ZaniAppUITests.framework */; };
+		F57570C668F810373C974B9F /* Pods_ZaniApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B42F65C8F3FC991A50C89D6 /* Pods_ZaniApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B4339029D309DD007FC338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B4337129D309D7007FC338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B4337829D309D7007FC338;
+			remoteInfo = ZaniApp;
+		};
+		52B4339A29D309DD007FC338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B4337129D309D7007FC338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B4337829D309D7007FC338;
+			remoteInfo = ZaniApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2CBD988A792953D6CD9A66 /* Pods-ZaniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaniApp.debug.xcconfig"; path = "Target Support Files/Pods-ZaniApp/Pods-ZaniApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2506A55AF014A9151377FB36 /* Pods-ZaniApp-ZaniAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaniApp-ZaniAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZaniApp-ZaniAppUITests/Pods-ZaniApp-ZaniAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37CCE40B5D766B2C57CAD1B2 /* Pods-ZaniApp-ZaniAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaniApp-ZaniAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ZaniApp-ZaniAppUITests/Pods-ZaniApp-ZaniAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5236626C29E1A81400AFE51C /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		5262A09B29DBD9CD00972E40 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5262A09E29DBDC7B00972E40 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5262A0A029DBDC9300972E40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5268684529E4EDED00D24B21 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5268684729E4FE2C00D24B21 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		5268685229E51C3300D24B21 /* TrackImageViewControllerTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackImageViewControllerTransitioning.swift; sourceTree = "<group>"; };
+		5268685429E594D100D24B21 /* MusicOneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicOneTableViewCell.swift; sourceTree = "<group>"; };
+		5268685629E594E600D24B21 /* MusicTwoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTwoTableViewCell.swift; sourceTree = "<group>"; };
+		5268685D29E5962500D24B21 /* MusicTwoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTwoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5268685F29E5AD9B00D24B21 /* Tracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+		527470EF29E007D0001EA357 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		527470F129E008EE001EA357 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		527470F329E0093F001EA357 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		527470F529E00957001EA357 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5275312B29E39E7A00EC8CBA /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		5275313429E3D75C00EC8CBA /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		5275313629E3D7B000EC8CBA /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		5275313929E3D83900EC8CBA /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		529EE04E29E5C0A90023DDC8 /* YoasobiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoasobiCollectionViewCell.swift; sourceTree = "<group>"; };
+		529EE05129E62B870023DDC8 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		529EE05329E640F10023DDC8 /* MusicThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicThreeTableViewCell.swift; sourceTree = "<group>"; };
+		529EE05529E65A3A0023DDC8 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		529EE05729E65A740023DDC8 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		529EE05A29E65D5F0023DDC8 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
+		529EE05C29E65E4B0023DDC8 /* TrackDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
+		529EE05E29E6629C0023DDC8 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		529EE06029E662BA0023DDC8 /* SearchPresentLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresentLogic.swift; sourceTree = "<group>"; };
+		529EE06229E662DD0023DDC8 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		529EE06429E663B00023DDC8 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		529EE06629E66D160023DDC8 /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
+		529EE06829E66E060023DDC8 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		529EE06A29E66E590023DDC8 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
+		529EE06C29E670490023DDC8 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		529EE06F29E68DE20023DDC8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		529EE07129E691DA0023DDC8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		529EE07329E692720023DDC8 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		529EE07529E692C60023DDC8 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		529EE07729E693290023DDC8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		529EE07929E693A20023DDC8 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		529EE07C29E694400023DDC8 /* TrackLocal+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackLocal+CoreData.swift"; sourceTree = "<group>"; };
+		529EE07E29E6947B0023DDC8 /* TrackLocal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackLocal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		529EE08029E694DA0023DDC8 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		52B4337929D309D7007FC338 /* ZaniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B4337C29D309D7007FC338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B4337E29D309D7007FC338 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52B4338029D309D7007FC338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B4338329D309D7007FC338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B4338529D309DD007FC338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B4338829D309DD007FC338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B4338A29D309DD007FC338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B4338F29D309DD007FC338 /* ZaniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaniAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B4339329D309DD007FC338 /* ZaniAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaniAppTests.swift; sourceTree = "<group>"; };
+		52B4339929D309DD007FC338 /* ZaniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaniAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B4339D29D309DD007FC338 /* ZaniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaniAppUITests.swift; sourceTree = "<group>"; };
+		52B4339F29D309DD007FC338 /* ZaniAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaniAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52B433AD29D30AD1007FC338 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		52B433AE29D30AD1007FC338 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		52B433AF29D30AD1007FC338 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		52C9039029E44F610000E97B /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		52C9039229E44FAB0000E97B /* ITunesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesProvider.swift; sourceTree = "<group>"; };
+		52C9039729E4507D0000E97B /* ITunesSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchResponse.swift; sourceTree = "<group>"; };
+		52C9039929E4509A0000E97B /* ITunesTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesTrack.swift; sourceTree = "<group>"; };
+		52C903C029E4E74F0000E97B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52C903C229E4E7700000E97B /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		52CA8DCA29E4EB5100FFDAC1 /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		52CA8DCC29E4EB8B00FFDAC1 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		52CA8DCE29E4ED1D00FFDAC1 /* UserDefaultExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultExtensions.swift; sourceTree = "<group>"; };
+		52CA8DD129E4ED9600FFDAC1 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		52D4E3D629DBCDA700448CE4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		52D4E3D829DBCE1200448CE4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52DCECD1EC9D3DDDE72EAF6C /* Pods-ZaniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaniApp.release.xcconfig"; path = "Target Support Files/Pods-ZaniApp/Pods-ZaniApp.release.xcconfig"; sourceTree = "<group>"; };
+		5689685C685F4558D1079DD6 /* Pods-ZaniAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaniAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ZaniAppTests/Pods-ZaniAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B42F65C8F3FC991A50C89D6 /* Pods_ZaniApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZaniApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4B87F3A70B193243FAA818 /* Pods_ZaniApp_ZaniAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZaniApp_ZaniAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ABB846242EEC8D9B04ED30 /* Pods_ZaniAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZaniAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95972E6EE21E338FAF054FA /* Pods-ZaniAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaniAppTests.release.xcconfig"; path = "Target Support Files/Pods-ZaniAppTests/Pods-ZaniAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B4337629D309D7007FC338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57570C668F810373C974B9F /* Pods_ZaniApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B4338C29D309DD007FC338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13859BC42D3893254199110F /* Pods_ZaniAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B4339629D309DD007FC338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B21A8706A3C35737BDE43E /* Pods_ZaniApp_ZaniAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D9F80919F3926AA4785509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B42F65C8F3FC991A50C89D6 /* Pods_ZaniApp.framework */,
+				7E4B87F3A70B193243FAA818 /* Pods_ZaniApp_ZaniAppUITests.framework */,
+				D7ABB846242EEC8D9B04ED30 /* Pods_ZaniAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520D82FC29E3F77800602786 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				52C9039629E450660000E97B /* Response */,
+				52C9038E29E44BB70000E97B /* API */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5236626B29E1A76300AFE51C /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				5236626C29E1A81400AFE51C /* PlaylistTableViewCell.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		5262A09D29DBDC6200972E40 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5268685D29E5962500D24B21 /* MusicTwoCollectionViewCell.swift */,
+				5262A09E29DBDC7B00972E40 /* Home.storyboard */,
+				5262A0A029DBDC9300972E40 /* HomeViewController.swift */,
+				5268685429E594D100D24B21 /* MusicOneTableViewCell.swift */,
+				5268685629E594E600D24B21 /* MusicTwoTableViewCell.swift */,
+				529EE04E29E5C0A90023DDC8 /* YoasobiCollectionViewCell.swift */,
+				529EE05329E640F10023DDC8 /* MusicThreeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5268685129E51C1100D24B21 /* TrackImage */ = {
+			isa = PBXGroup;
+			children = (
+				529EE07B29E694250023DDC8 /* TrackLocal+CoreData */,
+				5268685229E51C3300D24B21 /* TrackImageViewControllerTransitioning.swift */,
+				529EE07729E693290023DDC8 /* CoreDataManager.swift */,
+				529EE07929E693A20023DDC8 /* LibraryView.swift */,
+				529EE08029E694DA0023DDC8 /* LibraryCell.swift */,
+			);
+			path = TrackImage;
+			sourceTree = "<group>";
+		};
+		527470EC29DEF06E001EA357 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52B4338029D309D7007FC338 /* ViewController.swift */,
+				52B4338229D309D7007FC338 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		527470ED29DEF161001EA357 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				529EE06E29E68DD40023DDC8 /* FooterView */,
+				529EE05929E65D320023DDC8 /* TrackDetailView */,
+				5268685129E51C1100D24B21 /* TrackImage */,
+				52C903AE29E46C210000E97B /* Components */,
+				527470F129E008EE001EA357 /* Search.storyboard */,
+				527470F529E00957001EA357 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		527470EE29DEF169001EA357 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				527470EF29E007D0001EA357 /* Profile.storyboard */,
+				527470F329E0093F001EA357 /* ProfileViewController.swift */,
+				5275312B29E39E7A00EC8CBA /* EditProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5275313329E3D6F600EC8CBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52CA8DCA29E4EB5100FFDAC1 /* LoadingViewController.xib */,
+				5275313429E3D75C00EC8CBA /* InputTextField.swift */,
+				5275313629E3D7B000EC8CBA /* PrimaryButton.swift */,
+				52CA8DCC29E4EB8B00FFDAC1 /* LoadingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5275313829E3D81100EC8CBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5275313929E3D83900EC8CBA /* UIColorExtensions.swift */,
+				52CA8DCE29E4ED1D00FFDAC1 /* UserDefaultExtensions.swift */,
+				5268684729E4FE2C00D24B21 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		529EE05029E62B770023DDC8 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				529EE05129E62B870023DDC8 /* Player.storyboard */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		529EE05929E65D320023DDC8 /* TrackDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				529EE05C29E65E4B0023DDC8 /* TrackDetailView.xib */,
+				529EE05A29E65D5F0023DDC8 /* TrackDetailView.swift */,
+				529EE06429E663B00023DDC8 /* TrackCell.swift */,
+			);
+			path = TrackDetailView;
+			sourceTree = "<group>";
+		};
+		529EE06E29E68DD40023DDC8 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				529EE06F29E68DE20023DDC8 /* FooterView.swift */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		529EE07B29E694250023DDC8 /* TrackLocal+CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				529EE07C29E694400023DDC8 /* TrackLocal+CoreData.swift */,
+				529EE07E29E6947B0023DDC8 /* TrackLocal+CoreDataProperties.swift */,
+			);
+			path = "TrackLocal+CoreData";
+			sourceTree = "<group>";
+		};
+		52B4337029D309D7007FC338 = {
+			isa = PBXGroup;
+			children = (
+				52B4337B29D309D7007FC338 /* ZaniApp */,
+				52B4339229D309DD007FC338 /* ZaniAppTests */,
+				52B4339C29D309DD007FC338 /* ZaniAppUITests */,
+				52B4337A29D309D7007FC338 /* Products */,
+				78E30FDFE0474AB1331B0A10 /* Pods */,
+				11D9F80919F3926AA4785509 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52B4337A29D309D7007FC338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B4337929D309D7007FC338 /* ZaniApp.app */,
+				52B4338F29D309DD007FC338 /* ZaniAppTests.xctest */,
+				52B4339929D309DD007FC338 /* ZaniAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B4337B29D309D7007FC338 /* ZaniApp */ = {
+			isa = PBXGroup;
+			children = (
+				529EE05029E62B770023DDC8 /* Player */,
+				52CA8DD029E4ED8000FFDAC1 /* SplashScreen */,
+				52C903BF29E4E72D0000E97B /* Models */,
+				520D82FC29E3F77800602786 /* Network */,
+				5275313829E3D81100EC8CBA /* Extensions */,
+				5275313329E3D6F600EC8CBA /* View */,
+				5236626B29E1A76300AFE51C /* Playlist */,
+				527470EE29DEF169001EA357 /* Profile */,
+				527470ED29DEF161001EA357 /* Search */,
+				527470EC29DEF06E001EA357 /* Main */,
+				5262A09D29DBDC6200972E40 /* Home */,
+				52D4E3CF29DBCCF600448CE4 /* Auth */,
+				52B433AF29D30AD1007FC338 /* song1.mp3 */,
+				52B433AD29D30AD1007FC338 /* song2.mp3 */,
+				52B433AE29D30AD1007FC338 /* song3.mp3 */,
+				52B4337C29D309D7007FC338 /* AppDelegate.swift */,
+				52B4337E29D309D7007FC338 /* SceneDelegate.swift */,
+				52B4338529D309DD007FC338 /* Assets.xcassets */,
+				52B4338729D309DD007FC338 /* LaunchScreen.storyboard */,
+				52B4338A29D309DD007FC338 /* Info.plist */,
+			);
+			path = ZaniApp;
+			sourceTree = "<group>";
+		};
+		52B4339229D309DD007FC338 /* ZaniAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				52B4339329D309DD007FC338 /* ZaniAppTests.swift */,
+			);
+			path = ZaniAppTests;
+			sourceTree = "<group>";
+		};
+		52B4339C29D309DD007FC338 /* ZaniAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52B4339D29D309DD007FC338 /* ZaniAppUITests.swift */,
+				52B4339F29D309DD007FC338 /* ZaniAppUITestsLaunchTests.swift */,
+			);
+			path = ZaniAppUITests;
+			sourceTree = "<group>";
+		};
+		52C9038E29E44BB70000E97B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				52C9039029E44F610000E97B /* ApiServices.swift */,
+				52C9039229E44FAB0000E97B /* ITunesProvider.swift */,
+				529EE05529E65A3A0023DDC8 /* Container.swift */,
+				529EE05729E65A740023DDC8 /* EndPoint.swift */,
+				529EE06829E66E060023DDC8 /* ApiService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		52C9039629E450660000E97B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				52C9039729E4507D0000E97B /* ITunesSearchResponse.swift */,
+				52C9039929E4509A0000E97B /* ITunesTrack.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		52C903AE29E46C210000E97B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				529EE05E29E6629C0023DDC8 /* SearchInteractor.swift */,
+				529EE06029E662BA0023DDC8 /* SearchPresentLogic.swift */,
+				529EE06229E662DD0023DDC8 /* SearchModels.swift */,
+				529EE06629E66D160023DDC8 /* CMTime + Extension.swift */,
+				529EE06A29E66E590023DDC8 /* SearchWorker.swift */,
+				529EE06C29E670490023DDC8 /* SearchRouter.swift */,
+				529EE07129E691DA0023DDC8 /* TabBarController.swift */,
+				529EE07329E692720023DDC8 /* UIViewController.swift */,
+				529EE07529E692C60023DDC8 /* UIView + Extension.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52C903BF29E4E72D0000E97B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52C903C029E4E74F0000E97B /* User.swift */,
+				52C903C229E4E7700000E97B /* AccessToken.swift */,
+				5268685F29E5AD9B00D24B21 /* Tracks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52CA8DD029E4ED8000FFDAC1 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5268684529E4EDED00D24B21 /* SplashViewController.swift */,
+				52CA8DD129E4ED9600FFDAC1 /* Splash.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		52D4E3CF29DBCCF600448CE4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				52D4E3D629DBCDA700448CE4 /* Login.storyboard */,
+				52D4E3D829DBCE1200448CE4 /* LoginViewController.swift */,
+				5262A09B29DBD9CD00972E40 /* SignUpViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		78E30FDFE0474AB1331B0A10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F2CBD988A792953D6CD9A66 /* Pods-ZaniApp.debug.xcconfig */,
+				52DCECD1EC9D3DDDE72EAF6C /* Pods-ZaniApp.release.xcconfig */,
+				2506A55AF014A9151377FB36 /* Pods-ZaniApp-ZaniAppUITests.debug.xcconfig */,
+				37CCE40B5D766B2C57CAD1B2 /* Pods-ZaniApp-ZaniAppUITests.release.xcconfig */,
+				5689685C685F4558D1079DD6 /* Pods-ZaniAppTests.debug.xcconfig */,
+				E95972E6EE21E338FAF054FA /* Pods-ZaniAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B4337829D309D7007FC338 /* ZaniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B433A329D309DD007FC338 /* Build configuration list for PBXNativeTarget "ZaniApp" */;
+			buildPhases = (
+				EE6796D5197977CF13CE2624 /* [CP] Check Pods Manifest.lock */,
+				52B4337529D309D7007FC338 /* Sources */,
+				52B4337629D309D7007FC338 /* Frameworks */,
+				52B4337729D309D7007FC338 /* Resources */,
+				D4848EF0E693688B3A4996C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaniApp;
+			productName = ZaniApp;
+			productReference = 52B4337929D309D7007FC338 /* ZaniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B4338E29D309DD007FC338 /* ZaniAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B433A629D309DD007FC338 /* Build configuration list for PBXNativeTarget "ZaniAppTests" */;
+			buildPhases = (
+				B90F9C000CD9032C0EB5ECD3 /* [CP] Check Pods Manifest.lock */,
+				52B4338B29D309DD007FC338 /* Sources */,
+				52B4338C29D309DD007FC338 /* Frameworks */,
+				52B4338D29D309DD007FC338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B4339129D309DD007FC338 /* PBXTargetDependency */,
+			);
+			name = ZaniAppTests;
+			productName = ZaniAppTests;
+			productReference = 52B4338F29D309DD007FC338 /* ZaniAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52B4339829D309DD007FC338 /* ZaniAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B433A929D309DD007FC338 /* Build configuration list for PBXNativeTarget "ZaniAppUITests" */;
+			buildPhases = (
+				02228EA67D24D796EE811D04 /* [CP] Check Pods Manifest.lock */,
+				52B4339529D309DD007FC338 /* Sources */,
+				52B4339629D309DD007FC338 /* Frameworks */,
+				52B4339729D309DD007FC338 /* Resources */,
+				2946B2092896342242DC88A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B4339B29D309DD007FC338 /* PBXTargetDependency */,
+			);
+			name = ZaniAppUITests;
+			productName = ZaniAppUITests;
+			productReference = 52B4339929D309DD007FC338 /* ZaniAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B4337129D309D7007FC338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					52B4337829D309D7007FC338 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					52B4338E29D309DD007FC338 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 52B4337829D309D7007FC338;
+					};
+					52B4339829D309DD007FC338 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 52B4337829D309D7007FC338;
+					};
+				};
+			};
+			buildConfigurationList = 52B4337429D309D7007FC338 /* Build configuration list for PBXProject "ZaniApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B4337029D309D7007FC338;
+			productRefGroup = 52B4337A29D309D7007FC338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B4337829D309D7007FC338 /* ZaniApp */,
+				52B4338E29D309DD007FC338 /* ZaniAppTests */,
+				52B4339829D309DD007FC338 /* ZaniAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B4337729D309D7007FC338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B433B029D30AD1007FC338 /* song2.mp3 in Resources */,
+				52B433B229D30AD1007FC338 /* song1.mp3 in Resources */,
+				52D4E3D729DBCDA700448CE4 /* Login.storyboard in Resources */,
+				52B4338929D309DD007FC338 /* LaunchScreen.storyboard in Resources */,
+				527470F229E008EE001EA357 /* Search.storyboard in Resources */,
+				529EE05229E62B870023DDC8 /* Player.storyboard in Resources */,
+				52CA8DCB29E4EB5100FFDAC1 /* LoadingViewController.xib in Resources */,
+				529EE05D29E65E4B0023DDC8 /* TrackDetailView.xib in Resources */,
+				52B433B129D30AD1007FC338 /* song3.mp3 in Resources */,
+				52B4338629D309DD007FC338 /* Assets.xcassets in Resources */,
+				527470F029E007D0001EA357 /* Profile.storyboard in Resources */,
+				52B4338429D309D7007FC338 /* Main.storyboard in Resources */,
+				5262A09F29DBDC7B00972E40 /* Home.storyboard in Resources */,
+				52CA8DD229E4ED9600FFDAC1 /* Splash.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B4338D29D309DD007FC338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B4339729D309DD007FC338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02228EA67D24D796EE811D04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZaniApp-ZaniAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2946B2092896342242DC88A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZaniApp-ZaniAppUITests/Pods-ZaniApp-ZaniAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZaniApp-ZaniAppUITests/Pods-ZaniApp-ZaniAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZaniApp-ZaniAppUITests/Pods-ZaniApp-ZaniAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90F9C000CD9032C0EB5ECD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZaniAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4848EF0E693688B3A4996C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZaniApp/Pods-ZaniApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZaniApp/Pods-ZaniApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZaniApp/Pods-ZaniApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6796D5197977CF13CE2624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZaniApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B4337529D309D7007FC338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262A09C29DBD9CD00972E40 /* SignUpViewController.swift in Sources */,
+				52B4338129D309D7007FC338 /* ViewController.swift in Sources */,
+				529EE05B29E65D5F0023DDC8 /* TrackDetailView.swift in Sources */,
+				5275313A29E3D83900EC8CBA /* UIColorExtensions.swift in Sources */,
+				5268685E29E5962500D24B21 /* MusicTwoCollectionViewCell.swift in Sources */,
+				529EE06B29E66E590023DDC8 /* SearchWorker.swift in Sources */,
+				527470F629E00957001EA357 /* SearchViewController.swift in Sources */,
+				5268684829E4FE2C00D24B21 /* StringExtensions.swift in Sources */,
+				529EE07829E693290023DDC8 /* CoreDataManager.swift in Sources */,
+				529EE07629E692C60023DDC8 /* UIView + Extension.swift in Sources */,
+				5275313529E3D75C00EC8CBA /* InputTextField.swift in Sources */,
+				52B4337D29D309D7007FC338 /* AppDelegate.swift in Sources */,
+				52D4E3D929DBCE1200448CE4 /* LoginViewController.swift in Sources */,
+				5268685329E51C3300D24B21 /* TrackImageViewControllerTransitioning.swift in Sources */,
+				52C903C329E4E7700000E97B /* AccessToken.swift in Sources */,
+				5275313729E3D7B000EC8CBA /* PrimaryButton.swift in Sources */,
+				529EE07429E692720023DDC8 /* UIViewController.swift in Sources */,
+				529EE06D29E670490023DDC8 /* SearchRouter.swift in Sources */,
+				529EE07029E68DE20023DDC8 /* FooterView.swift in Sources */,
+				52C9039129E44F610000E97B /* ApiServices.swift in Sources */,
+				52CA8DCF29E4ED1D00FFDAC1 /* UserDefaultExtensions.swift in Sources */,
+				52C9039329E44FAB0000E97B /* ITunesProvider.swift in Sources */,
+				5262A0A129DBDC9300972E40 /* HomeViewController.swift in Sources */,
+				52CA8DCD29E4EB8B00FFDAC1 /* LoadingViewController.swift in Sources */,
+				529EE06529E663B00023DDC8 /* TrackCell.swift in Sources */,
+				529EE08129E694DA0023DDC8 /* LibraryCell.swift in Sources */,
+				529EE07A29E693A20023DDC8 /* LibraryView.swift in Sources */,
+				527470F429E0093F001EA357 /* ProfileViewController.swift in Sources */,
+				529EE05829E65A740023DDC8 /* EndPoint.swift in Sources */,
+				52C9039829E4507D0000E97B /* ITunesSearchResponse.swift in Sources */,
+				529EE07F29E6947B0023DDC8 /* TrackLocal+CoreDataProperties.swift in Sources */,
+				529EE07229E691DA0023DDC8 /* TabBarController.swift in Sources */,
+				52C903C129E4E74F0000E97B /* User.swift in Sources */,
+				529EE06129E662BA0023DDC8 /* SearchPresentLogic.swift in Sources */,
+				529EE06729E66D160023DDC8 /* CMTime + Extension.swift in Sources */,
+				529EE06329E662DD0023DDC8 /* SearchModels.swift in Sources */,
+				529EE07D29E694400023DDC8 /* TrackLocal+CoreData.swift in Sources */,
+				5268685729E594E600D24B21 /* MusicTwoTableViewCell.swift in Sources */,
+				5268686029E5AD9B00D24B21 /* Tracks.swift in Sources */,
+				52B4337F29D309D7007FC338 /* SceneDelegate.swift in Sources */,
+				529EE05429E640F10023DDC8 /* MusicThreeTableViewCell.swift in Sources */,
+				52C9039A29E4509A0000E97B /* ITunesTrack.swift in Sources */,
+				5275312C29E39E7A00EC8CBA /* EditProfileViewController.swift in Sources */,
+				529EE05F29E6629C0023DDC8 /* SearchInteractor.swift in Sources */,
+				5268685529E594D100D24B21 /* MusicOneTableViewCell.swift in Sources */,
+				5236626D29E1A81400AFE51C /* PlaylistTableViewCell.swift in Sources */,
+				529EE06929E66E060023DDC8 /* ApiService.swift in Sources */,
+				529EE05629E65A3A0023DDC8 /* Container.swift in Sources */,
+				5268684629E4EDED00D24B21 /* SplashViewController.swift in Sources */,
+				529EE04F29E5C0A90023DDC8 /* YoasobiCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B4338B29D309DD007FC338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B4339429D309DD007FC338 /* ZaniAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B4339529D309DD007FC338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B433A029D309DD007FC338 /* ZaniAppUITestsLaunchTests.swift in Sources */,
+				52B4339E29D309DD007FC338 /* ZaniAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B4339129D309DD007FC338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B4337829D309D7007FC338 /* ZaniApp */;
+			targetProxy = 52B4339029D309DD007FC338 /* PBXContainerItemProxy */;
+		};
+		52B4339B29D309DD007FC338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B4337829D309D7007FC338 /* ZaniApp */;
+			targetProxy = 52B4339A29D309DD007FC338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B4338229D309D7007FC338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B4338329D309D7007FC338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B4338729D309DD007FC338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B4338829D309DD007FC338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B433A129D309DD007FC338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B433A229D309DD007FC338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B433A429D309DD007FC338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2CBD988A792953D6CD9A66 /* Pods-ZaniApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZaniApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iswift.ZaniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B433A529D309DD007FC338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DCECD1EC9D3DDDE72EAF6C /* Pods-ZaniApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZaniApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iswift.ZaniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52B433A729D309DD007FC338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5689685C685F4558D1079DD6 /* Pods-ZaniAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iswift.ZaniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaniApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaniApp";
+			};
+			name = Debug;
+		};
+		52B433A829D309DD007FC338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95972E6EE21E338FAF054FA /* Pods-ZaniAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iswift.ZaniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaniApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaniApp";
+			};
+			name = Release;
+		};
+		52B433AA29D309DD007FC338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2506A55AF014A9151377FB36 /* Pods-ZaniApp-ZaniAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iswift.ZaniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaniApp;
+			};
+			name = Debug;
+		};
+		52B433AB29D309DD007FC338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CCE40B5D766B2C57CAD1B2 /* Pods-ZaniApp-ZaniAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iswift.ZaniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaniApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B4337429D309D7007FC338 /* Build configuration list for PBXProject "ZaniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B433A129D309DD007FC338 /* Debug */,
+				52B433A229D309DD007FC338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B433A329D309DD007FC338 /* Build configuration list for PBXNativeTarget "ZaniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B433A429D309DD007FC338 /* Debug */,
+				52B433A529D309DD007FC338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B433A629D309DD007FC338 /* Build configuration list for PBXNativeTarget "ZaniAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B433A729D309DD007FC338 /* Debug */,
+				52B433A829D309DD007FC338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B433A929D309DD007FC338 /* Build configuration list for PBXNativeTarget "ZaniAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B433AA29D309DD007FC338 /* Debug */,
+				52B433AB29D309DD007FC338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B4337129D309D7007FC338 /* Project object */;
+}

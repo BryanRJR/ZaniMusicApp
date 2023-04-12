@@ -1,0 +1,6 @@
+framework module Pods_ZaniAppTests {
+  umbrella header "Pods-ZaniAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

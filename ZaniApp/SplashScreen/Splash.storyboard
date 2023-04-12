@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SplashViewController" customModule="ZaniApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gs8-zo-6jj">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="859"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Meliuk-liuk" translatesAutoresizingMaskIntoConstraints="NO" id="XN0-tX-XZm">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="902"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Meliuk-liuk 1" translatesAutoresizingMaskIntoConstraints="NO" id="5jc-3y-XTA">
+                                        <rect key="frame" x="0.0" y="42" width="393" height="867"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sphere_a1" translatesAutoresizingMaskIntoConstraints="NO" id="Vnl-Lo-VJp">
+                                        <rect key="frame" x="153" y="664" width="240" height="238"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sphere_a1 1" translatesAutoresizingMaskIntoConstraints="NO" id="CYo-P7-DGd">
+                                        <rect key="frame" x="0.0" y="13" width="138" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sphere_a1 1" translatesAutoresizingMaskIntoConstraints="NO" id="zUl-AG-sOR">
+                                        <rect key="frame" x="0.0" y="789" width="73" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sphere_a1 1" translatesAutoresizingMaskIntoConstraints="NO" id="vSi-CY-NPY">
+                                        <rect key="frame" x="285" y="0.0" width="195" height="178"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sphere_a1 2" translatesAutoresizingMaskIntoConstraints="NO" id="en1-d3-jcY">
+                                        <rect key="frame" x="0.0" y="357" width="138" height="223"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-Q3-d8O">
+                                <rect key="frame" x="186.66666666666666" y="509" width="20" height="20"/>
+                                <color key="color" red="0.47450980390000003" green="0.25098039220000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Z a n i" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deo-2C-nvu">
+                                <rect key="frame" x="103.33333333333333" y="384" width="186.66666666666669" height="84"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="70"/>
+                                <color key="textColor" red="0.47450980390000003" green="0.25098039220000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Music Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mM-NF-9Ho">
+                                <rect key="frame" x="103.33333333333333" y="468" width="186.66666666666669" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Deo-2C-nvu" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="GKg-ba-bfX"/>
+                            <constraint firstItem="QFX-Q3-d8O" firstAttribute="top" secondItem="9mM-NF-9Ho" secondAttribute="bottom" constant="20" id="KnP-dy-sU4"/>
+                            <constraint firstItem="9mM-NF-9Ho" firstAttribute="leading" secondItem="Deo-2C-nvu" secondAttribute="leading" id="Z3x-Cy-9gf"/>
+                            <constraint firstItem="QFX-Q3-d8O" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="bPd-3T-BbC"/>
+                            <constraint firstItem="Deo-2C-nvu" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="dx5-Km-Kuk"/>
+                            <constraint firstItem="9mM-NF-9Ho" firstAttribute="top" secondItem="Deo-2C-nvu" secondAttribute="bottom" id="pet-3M-gfv"/>
+                            <constraint firstItem="9mM-NF-9Ho" firstAttribute="trailing" secondItem="Deo-2C-nvu" secondAttribute="trailing" id="rYX-7R-7EI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingView" destination="QFX-Q3-d8O" id="heM-XU-jE6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Meliuk-liuk" width="794.66668701171875" height="436"/>
+        <image name="Meliuk-liuk 1" width="862.66668701171875" height="436"/>
+        <image name="Sphere_a1" width="505.66665649414062" height="482"/>
+        <image name="Sphere_a1 1" width="78.666664123535156" height="78.666664123535156"/>
+        <image name="Sphere_a1 2" width="263.66665649414062" height="526.66668701171875"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
